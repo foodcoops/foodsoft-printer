@@ -1,0 +1,21 @@
+{
+  "name": "foodsoft-printer",
+  "version": "0.1.0",
+  "description": "Printer client for Foodsoft",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "foodsoft",
+    "printer",
+    "cups"
+  ],
+  "author": "Patrick Gansterer <paroga@paroga.com>",
+  "license": "ISC",
+  "dependencies": {
+    "printer": "^0.2.2",
+    "request": "^2.88.0",
+    "ws": "^6.1.2"
+  }
+}
